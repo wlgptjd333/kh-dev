@@ -1,4 +1,8 @@
-#리눅스 명령어 퀴즈 프로그램 만들기
+import random
+
+import quiz
+
+# 리눅스 명령어 퀴즈 프로그램 만들기
 '''
 - **리눅스 명령어 퀴즈 프로그램 만들기**
 - 조건문,반복문,리스트 사용할 것
@@ -13,4 +17,35 @@
 - 게임 종료 후 재시도 할 수 있게 만들어줄 것
 - 유저 입력으로 게임을 그만할 수 있게 만들어줄 것 (프로세스 종료)
 '''
+is_play = 0
+while True:
+    if is_play != "n":
+        # k = int(input(f"{len(quiz.question_list)}문제 중에 몇 문제 푸시겠습니까?"))
+        k = 3
+        print("3문제를 랜덤으로 출제합니다. 정답 개수에 따라 등급이 달라집니다.\n")
+        question_number = random.sample(range(len(quiz.question_list)), k)
+        correct_number = 0
 
+        for i in question_number:
+            print(quiz.question_list[i])
+            answer = input().lower()
+
+            if answer == quiz.question_answer_list[i]:
+                print(f"{i + 1}번 문제 정답입니다!\n")
+                correct_number += 1
+            else:
+                print(f"{i + 1}번 문제의 정답은 {quiz.question_answer_list[i]}입니다. 아쉽네요\n")
+
+        if correct_number == 0:
+            print("F등급입니다!\n")
+        elif correct_number == 1:
+            print("C등급입니다!!\n")
+        elif correct_number == 2:
+            print("B등급입니다!!!\n")
+        else:
+            print("A등급입니다!!!!! 대단합니다! 정답을 모두 맞췄습니다!\n")
+
+        is_play = input(("게임을 계속 하시겠습니까? Y/n\n"))
+        print()
+    else:
+        break
