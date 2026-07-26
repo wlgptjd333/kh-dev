@@ -15,7 +15,7 @@ while True:
     print("2. 업다운")
     print("3. 로또번호")
     print("4. 종료")
-    choice = int(input("게임을 선택하세요 (1-4): "))
+    choice = input("게임을 선택하세요 (1-4): ")
 
     if choice == 1:
         rps.play_rps()
