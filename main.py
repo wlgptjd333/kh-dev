@@ -7,15 +7,16 @@
 #     - 로또번호
 
 
-from game import rps, up_down, lotto
+from game import rps, up_down, lotto, reaction_time
 
 
 while True:
     print("1. 가위바위보")
     print("2. 업다운")
     print("3. 로또번호")
-    print("4. 종료")
-    choice = input("게임을 선택하세요 (1-4): ")
+    print("4. 반응속도 테스트")
+    print("5. 게임 종료")
+    choice = input("게임을 선택하세요 (1-5): ")
 
     if choice == '1':
         rps.play_rps()
@@ -24,6 +25,8 @@ while True:
     elif choice == '3':
         lotto.play_lotto()
     elif choice == '4':
+        reaction_time.play_reaction_time()
+    elif choice == '5':
         print("게임을 종료합니다.")
         break
     else:
