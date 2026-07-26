@@ -1,6 +1,6 @@
 import random
 
-def play():
+def play_up_down():
     print("\n===== 업다운 게임 =====")
     answer = random.randint(1, 100)
     attempts = 0
