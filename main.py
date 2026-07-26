@@ -17,13 +17,13 @@ while True:
     print("4. 종료")
     choice = input("게임을 선택하세요 (1-4): ")
 
-    if choice == 1:
+    if choice == '1':
         rps.play_rps()
-    elif choice == 2:
+    elif choice == '2':
         up_down.play_up_down()
-    elif choice == 3:
+    elif choice == '3':
         lotto.play_lotto()
-    elif choice == 4:
+    elif choice == '4':
         print("게임을 종료합니다.")
         break
     else:
