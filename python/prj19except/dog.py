@@ -1,0 +1,2 @@
+class Dog(Exception):
+    pass
