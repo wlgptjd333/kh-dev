@@ -14,8 +14,8 @@
 # - ~~첨부파일 : X~~
 # - 내용 : 깃허브 링크
 
-# main.py
 from services.menu import display_menu
+
 # 프로그램 시작점
 if __name__ == "__main__":
     display_menu()

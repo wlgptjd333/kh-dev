@@ -1,5 +1,3 @@
-from unittest import case
-
 from services.crud import (create_note, view_note_list, read_note,
                            delete_note, exit_program, update_note)
 
@@ -13,20 +11,20 @@ def display_menu():
         print("4. 노트 수정(U)     5. 노트 삭제(D)  0. 종료")
         print("=" * 50)
 
-        choice = int(input("메뉴를 선택하세요: "))
+        choice = input("메뉴를 선택하세요: ")
 
         match choice:
-            case 1:
+            case "1":
                 create_note()
-            case 2:
+            case "2":
                 view_note_list()
-            case 3:
+            case "3":
                 read_note()
-            case 4:
+            case "4":
                 update_note()
-            case 5:
+            case "5":
                 delete_note()
-            case 0:
+            case "0":
                 exit_program()
                 break
             case _:
