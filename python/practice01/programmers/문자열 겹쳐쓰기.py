@@ -1,0 +1,4 @@
+def solution(my_string, overwrite_string, s):
+
+    answer = my_string[0:s:1]+overwrite_string+my_string[s+len(overwrite_string):]
+    return answer
