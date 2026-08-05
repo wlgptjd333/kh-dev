@@ -84,6 +84,7 @@ most_book = (max(borrow_book, key=borrow_book.get))
 most_book_num = borrow_book[most_book]
 
 print(most_book_num, most_book)
+
 # 인기 분야 1위
 most_field = (max(field_count, key=field_count.get))
 most_field_num = field_count[most_field]
