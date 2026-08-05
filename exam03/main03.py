@@ -76,3 +76,18 @@ for row in data:
 
 print(f"{largest_gap_day['날짜']} {largest_gap_day['도시']} {int(largest_gap)}℃")
 
+# 결과를 파일로 저장
+with open("report03.txt", "w", encoding="utf-8") as f:
+
+    f.write("=== 여름 날씨 분석 리포트 (2025.06 ~ 08) ===\n\n")
+
+    f.write(f"[전체 관측] {total}건\n")
+    f.write(f"[비 온 날] {rain_day}건 ({round((rain_day/total)*100, 1)}%)\n\n")
+
+    f.write("[도시별 평균 최고기온]\n")
+    for city, avg in avg_highest_temp.items():
+        f.write(f"{city}: {avg:.1f}℃\n")
+
+    f.write("\n[분석 결과]\n")
+    f.write(f"가장 더웠던 날: {highest_row['날짜']} {highest_row['도시']} ({highest_row['최고기온']}℃)\n")
+    f.write(f"일교차가 가장 큰 날: {largest_gap_day['날짜']} {largest_gap_day['도시']} ({int(largest_gap)}℃)\n")
