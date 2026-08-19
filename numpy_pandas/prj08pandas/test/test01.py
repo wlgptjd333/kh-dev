@@ -74,8 +74,6 @@ valid_categories = [
     "식품",
     "의류",
     "뷰티",
-    "food",
-    "clothes"
 ]
 
 print("\n[Q1-6 이상값]")
