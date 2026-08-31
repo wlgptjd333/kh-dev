@@ -19,11 +19,11 @@ X = data.data
 y = data.target
 
 # df 만들기
-df = pd.DataFrame(X)
+df = pd.DataFrame(X, columns=data.feature_names)
 df['Price'] = y
 
 # csv 저장
-df.to_csv('data/california_housing.csv')
+df.to_csv('california_housing.csv', index=False)
 
 # 데이터 정보 확인
 print("df. describe(): ", df.describe())
