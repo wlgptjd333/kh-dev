@@ -7,7 +7,7 @@ from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+from sklearn.metrics import r2_score, mean_absolute_error, root_mean_squared_error
 
 # 한글 설정
 plt.rcParams['font.family'] = ['Malgun Gothic']
@@ -62,7 +62,7 @@ y_pred = m.predict(X_test)
 # 평가
 r2 = r2_score(y_test, y_pred)
 mae = mean_absolute_error(y_test, y_pred)
-rmse = mean_squared_error(y_test, y_pred)
+rmse = root_mean_squared_error(y_test, y_pred)
 
 print("R2 score: ", r2)
 print("MAE score: ", mae)
