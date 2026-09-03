@@ -1,10 +1,19 @@
-.idea/
+idea/
 __pycache__/
 setup/
-# 이미지 파일 깃허브 업로드 제외
+
+# 이미지 파일
 *.jpg
 *.jpeg
 *.png
 *.gif
 *.bmp
 *.webp
+*.tif
+*.tiff
+
+# 영상 파일
+*.mp4
+*.avi
+*.mov
+*.mkv

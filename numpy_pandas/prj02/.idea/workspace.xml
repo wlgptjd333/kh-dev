@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d43af122-d8ab-45cc-a011-c4d67751f178" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../prj01/main02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj01/main03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj25file/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj26review/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj26review/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj27etc/test/test08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj28data/exam01/main01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/prj28data/exam01/sales.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wlgptjd333"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wlgptjd333/dev",
+    "accountId": "01362e92-30c9-4391-97aa-64e1b094fa4a"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000363660341784" />
+      <entry key="S2" value="1.1615763789511324" />
+      <entry key="S5" value="2.1888135550286045" />
+      <entry key="S10" value="3.4127054489912543" />
+      <entry key="S30" value="4.960864631599545" />
+      <entry key="S60" value="5.755155481254814" />
+      <entry key="M2" value="7.0516178943498415" />
+      <entry key="M5" value="12.642458398171756" />
+      <entry key="M10" value="22.024282191203774" />
+      <entry key="M15" value="30.92554746298158" />
+      <entry key="M30" value="57.057636370028945" />
+      <entry key="H1" value="93.75593734347432" />
+      <entry key="H2" value="127.45200987713721" />
+      <entry key="H4" value="150.76902300022732" />
+      <entry key="D1" value="174.6533046566451" />
+      <entry key="W1" value="179.22361226743237" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.411984911042184E-125" />
+      <entry key="S5" value="2.928133150822003E-50" />
+      <entry key="S10" value="2.412926238967655E-25" />
+      <entry key="S30" value="9.877440985426986E-9" />
+      <entry key="S60" value="1.4169391201102082E-4" />
+      <entry key="M2" value="0.017872690997683616" />
+      <entry key="M5" value="0.3763671089812606" />
+      <entry key="M10" value="1.1877617530614253" />
+      <entry key="M15" value="1.9140230222218857" />
+      <entry key="M30" value="3.7414982607974325" />
+      <entry key="H1" value="6.024625365367893" />
+      <entry key="H2" value="8.010076017634658" />
+      <entry key="H4" value="9.349203667432331" />
+      <entry key="D1" value="10.700021131339419" />
+      <entry key="W1" value="10.956490512355556" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.011923900070004365" />
+      <entry key="MS500" value="0.412389665351137" />
+      <entry key="S2" value="0.9393707320268153" />
+      <entry key="S5" value="2.0374555447766545" />
+      <entry key="S10" value="3.3043328276912773" />
+      <entry key="S30" value="4.910503516313721" />
+      <entry key="S60" value="5.723333937877673" />
+      <entry key="M2" value="7.046647005544619" />
+      <entry key="M5" value="12.992437318768658" />
+      <entry key="M10" value="23.16549233248218" />
+      <entry key="M15" value="32.78350828932696" />
+      <entry key="M30" value="60.742824010574346" />
+      <entry key="H1" value="99.7380898995624" />
+      <entry key="H2" value="135.43539311510602" />
+      <entry key="H4" value="160.10315825788112" />
+      <entry key="D1" value="185.35053616581365" />
+      <entry key="W1" value="190.1796968668693" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3HWKQCpJJ3DjRGVD1j2yqb5iMGb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.main2.executor": "Run",
+    "Python.main3.executor": "Run",
+    "Python.main4.executor": "Run",
+    "Python.main5.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="d43af122-d8ab-45cc-a011-c4d67751f178" name="변경" comment="" />
+      <created>1785978367952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785978367952</updated>
+      <workItem from="1785978368985" duration="5687000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/prj02$main5.coverage" NAME="main5 커버리지 결과" MODIFIED="1785984475914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prj02$main4.coverage" NAME="main4 커버리지 결과" MODIFIED="1785982795481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prj02$main2.coverage" NAME="main2 커버리지 결과" MODIFIED="1785979334902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prj02$main.coverage" NAME="main 커버리지 결과" MODIFIED="1785979094946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prj02$main3.coverage" NAME="main3 커버리지 결과" MODIFIED="1785980788611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

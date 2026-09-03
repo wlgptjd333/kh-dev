@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c14ac10-8633-4dc2-8d8c-851ddb77a967" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../prj05tips/main_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj05tips/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prj05tips/model_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wlgptjd333"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wlgptjd333/dev",
+    "accountId": "01362e92-30c9-4391-97aa-64e1b094fa4a"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0013340236882367139" />
+      <entry key="MS500" value="0.26609254561333995" />
+      <entry key="S2" value="0.7182211286580357" />
+      <entry key="S5" value="0.8760074927760249" />
+      <entry key="S10" value="0.940854301015984" />
+      <entry key="S30" value="1.3555007449466732" />
+      <entry key="S60" value="2.522052646928032" />
+      <entry key="M2" value="5.839223305670616" />
+      <entry key="M5" value="16.700779826213658" />
+      <entry key="M10" value="33.89093502877779" />
+      <entry key="M15" value="49.924535898162034" />
+      <entry key="M30" value="88.71548624500124" />
+      <entry key="H1" value="133.1399723734495" />
+      <entry key="H2" value="169.7546807446964" />
+      <entry key="H4" value="193.81829388388698" />
+      <entry key="D1" value="217.73013863459428" />
+      <entry key="W1" value="222.23646916992584" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000016" />
+      <entry key="S5" value="1.0000011616444544" />
+      <entry key="S10" value="1.001077796135189" />
+      <entry key="S30" value="1.103047951160028" />
+      <entry key="S60" value="1.3582268454718074" />
+      <entry key="M2" value="1.9059851255658544" />
+      <entry key="M5" value="3.2498869680229836" />
+      <entry key="M10" value="4.7773468832665476" />
+      <entry key="M15" value="5.944005114306386" />
+      <entry key="M30" value="8.485484742814908" />
+      <entry key="H1" value="11.300990851059012" />
+      <entry key="H2" value="13.618304832999632" />
+      <entry key="H4" value="15.1447019935242" />
+      <entry key="D1" value="16.664616201298557" />
+      <entry key="W1" value="16.951398424662827" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0014502677018317267" />
+      <entry key="MS500" value="0.4066165107191202" />
+      <entry key="S2" value="1.329381962095823" />
+      <entry key="S5" value="1.6971450359583102" />
+      <entry key="S10" value="1.847805498256139" />
+      <entry key="S30" value="2.4176859735533434" />
+      <entry key="S60" value="3.8464502870348007" />
+      <entry key="M2" value="7.70862236620171" />
+      <entry key="M5" value="19.91009512798045" />
+      <entry key="M10" value="38.62958719329278" />
+      <entry key="M15" value="55.831880320120526" />
+      <entry key="M30" value="97.16856009354795" />
+      <entry key="H1" value="144.41584103447306" />
+      <entry key="H2" value="183.35653320112473" />
+      <entry key="H4" value="208.95345570336372" />
+      <entry key="D1" value="234.392943743462" />
+      <entry key="W1" value="239.18760286910148" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IO6iYEi25Op7OvJm4VgvC5dERq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.model.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/dev/kaggle/prj06flights",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="prj06flights" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="9c14ac10-8633-4dc2-8d8c-851ddb77a967" name="변경" comment="" />
+      <created>1787623395371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787623395371</updated>
+      <workItem from="1787623396376" duration="9041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/prj06flights$main.coverage" NAME="main 커버리지 결과" MODIFIED="1787626931238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/prj06flights$model.coverage" NAME="model 커버리지 결과" MODIFIED="1787629552298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
