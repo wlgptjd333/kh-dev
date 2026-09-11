@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['lacto', 'lip', 'salt']
+
+roboflow:
+  workspace: hyesung-ji-s-workspace
+  project: prj1-p9iy7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hyesung-ji-s-workspace/prj1-p9iy7/dataset/1
