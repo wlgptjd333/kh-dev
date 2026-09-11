@@ -1,6 +1,6 @@
 train: ../train/images
-val: ../valid/images
-test: ../test/images
+val: ../train/images
+test: ../train/images
 
 nc: 3
 names: ['lacto', 'lip', 'salt']
