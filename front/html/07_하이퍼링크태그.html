@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>하이퍼 링크 태그</title>
+  </head>
+  <body>
+    <!-- 맨 위로 이동할 때 사용할 기준 id -->
+    <h1 id="top">하이퍼 링크 태그</h1>
+    <p>
+      다른 웹페이지, 같은 사이트의 파일, 또는 현재 페이지의 특정 위치로 이동할
+      때 사용하는 태그입니다.
+    </p>
+
+    <hr />
+
+    <!-- 
+      [ 1. a (Anchor) 태그의 핵심 속성 ]
+      - href   : 이동할 목적지 주소 (URL, 파일 경로, #아이디 등)
+      - target : 새 창에서 열지, 현재 창에서 열지 결정
+          * _self  : 현재 탭에서 열기 (기본값)
+          * _blank : 새 탭(새 창)에서 열기
+      - title  : 마우스를 올렸을 때 나타나는 설명 툴팁
+    -->
+
+    <h2>1. 외부 사이트로 이동 (target 속성)</h2>
+    <ul>
+      <li>
+        <a href="https://www.google.com" target="_self"
+          >구글로 이동 (현재 창: _self)</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.naver.com"
+          target="_blank"
+          title="네이버가 새 창으로 열립니다"
+        >
+          네이버로 이동 (새 탭: _blank)
+        </a>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>2. 내 프로젝트 안의 다른 HTML 파일로 이동 (내부 링크)</h2>
+    <ul>
+      <li>
+        <a href="./01_글자관련태그.html">01_글자관련태그 페이지로 이동</a>
+      </li>
+      <li><a href="./03_표관련태그.html">03_표관련태그 페이지로 이동</a></li>
+      <li>
+        <a href="./05_이미지관련태그.html">05_이미지관련태그 페이지로 이동</a>
+      </li>
+      <li>
+        <a href="./06_미디어관련태그.html">06_미디어관련태그 페이지로 이동</a>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>3. 이미지를 클릭하면 이동하는 이미지 링크</h2>
+    <p>이미지(img)를 a 태그로 감싸면 클릭할 수 있는 버튼/링크가 됩니다.</p>
+    <a href="https://www.youtube.com" target="_blank">
+      <img src="./resources/images/aaa.jpg" alt="유튜브 바로가기" width="120" />
+    </a>
+
+    <hr />
+
+    <!-- 
+      [ 2. 페이지 내 책갈피(앵커) 기능 ]
+      - 긴 페이지에서 특정 위치로 순간이동하는 기능입니다.
+      - 1단계: 이동하고 싶은 목적지 태그에 id="아이디명" 을 붙입니다.
+      - 2단계: a 태그의 href에 "#아이디명" 을 적어줍니다.
+    -->
+    <h2>4. 페이지 내 특정 위치로 이동 (책갈피 / 앵커)</h2>
+    <p>아래 링크를 누르면 스크롤이 해당 Target 위치로 슝 이동합니다:</p>
+
+    <a href="#target01">🎯 Target 01 바로가기</a> |
+    <a href="#target02">🎯 Target 02 바로가기</a> |
+    <a href="#target03">🎯 Target 03 바로가기</a>
+
+    <!-- 스크롤을 만들기 위한 긴 여백 -->
+    <pre style="line-height: 2.5; color: #aaa">
+
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    </pre>
+
+    <!-- 도착 지점 1 -->
+    <h3
+      id="target01"
+      style="background-color: #fff3bf; padding: 12px; border-radius: 8px"
+    >
+      📍 Target 01 도착 지점 (id="target01")
+    </h3>
+    <p>여기는 첫 번째 타겟 영역입니다.</p>
+    <a href="#top">맨 위로 가기 (Top) ↑</a>
+
+    <pre style="line-height: 2.5; color: #aaa">
+
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    </pre>
+
+    <!-- 도착 지점 2 -->
+    <h3
+      id="target02"
+      style="background-color: #d3f9d8; padding: 12px; border-radius: 8px"
+    >
+      📍 Target 02 도착 지점 (id="target02")
+    </h3>
+    <p>여기는 두 번째 타겟 영역입니다.</p>
+    <a href="#top">맨 위로 가기 (Top) ↑</a>
+
+    <pre style="line-height: 2.5; color: #aaa">
+
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    스크롤을 내리기 위한 여백 공간입니다...
+    </pre>
+
+    <!-- 도착 지점 3 -->
+    <h3
+      id="target03"
+      style="background-color: #ffd6e7; padding: 12px; border-radius: 8px"
+    >
+      📍 Target 03 도착 지점 (id="target03")
+    </h3>
+    <p>여기는 세 번째 타겟 영역입니다.</p>
+    <a href="#top">맨 위로 가기 (Top) ↑</a>
+
+    <hr />
+
+    <h2>5. 특수 기능 링크 (전화걸기, 이메일)</h2>
+    <ul>
+      <li>
+        <a href="mailto:admin@test.com">관리자에게 이메일 보내기 (mailto:)</a>
+      </li>
+      <li>
+        <a href="tel:010-1234-5678"
+          >전화 걸기 (스마트폰에서 즉시 통화 연결: tel:)</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>

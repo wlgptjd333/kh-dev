@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 표 관련 태그</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 720px;
+      }
+
+      th,
+      td {
+        border: 1px solid #999;
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      thead th {
+        background: #f1f5f9;
+      }
+
+      caption {
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>HTML 표 관련 태그</h1>
+
+    <table>
+      <caption>
+        주요 표 태그 예시
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">태그</th>
+          <th scope="col">설명</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row">table</th>
+          <td>표 전체를 정의합니다.</td>
+        </tr>
+
+        <tr>
+          <th scope="row">caption</th>
+          <td>표의 제목을 지정합니다.</td>
+        </tr>
+
+        <tr>
+          <th scope="row">thead, tbody, tfoot</th>
+          <td>표의 머리글, 본문, 바닥글 영역을 구분합니다.</td>
+        </tr>
+
+        <tr>
+          <th scope="row">tr</th>
+          <td>표의 행(row)을 만듭니다.</td>
+        </tr>
+
+        <tr>
+          <th scope="row">th, td</th>
+          <td>제목 셀과 일반 셀을 만듭니다.</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">
+            scope 속성으로 행 또는 열의 제목임을 표시할 수 있습니다.
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

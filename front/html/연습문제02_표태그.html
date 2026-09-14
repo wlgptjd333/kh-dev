@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연습문제2_표태그</title>
+  </head>
+  <body>
+    <h1>연습문제2_표태그</h1>
+
+    <hr />
+    <br />
+    <h2></h2>
+    <table border="1">
+      <caption>
+        <h2 style="color: red">KH 정보교육원 강의</h2>
+      </caption>
+      <thead>
+        <tr style="background-color: pink; color: white">
+          <th>관</th>
+          <th>강의장</th>
+          <th>인원수</th>
+          <th>강사명</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="6" style="background-color: yello">1관</td>
+          <td rowspan="2">D강의장</td>
+          <td rowspan="2" style="background-color: yellow">30명</td>
+          <td style="background-color: yellow">
+            오전 : 심원용
+            <button
+              type="button"
+              style="background-color: lightskyblue; color: white"
+            >
+              신청하기
+            </button>
+
+            오후 : 심원용
+            <button type="button">신청하기</button>
+          </td>
+        </tr>
+        <tr>
+          <td>S강의장</td>
+          <td>25명</td>
+          <td>
+            오전 : 김철수
+            <button type="button" onclick="alert('오전 : 김철수')">
+              신청하기
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>T강의장</td>
+          <td>20명</td>
+          <td>
+            오전 : 박영희
+            <button type="button" onclick="alert('오전 : 박영희')">
+              신청하기
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="4"
+            style="
+              text-align: center;
+              font-weight: bold;
+              background-color: orangered;
+              color: blue;
+            "
+          >
+            화이팅 ^~^
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

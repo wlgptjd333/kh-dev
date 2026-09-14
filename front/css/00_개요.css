@@ -1,0 +1,21 @@
+div {
+  background-color: gray;
+  color: wheat;
+  font-size: 32px;
+  font-weight: 900;
+  border: 3px dotted black;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: red;
+}
+
+#target {
+  background-color: blue;
+}
