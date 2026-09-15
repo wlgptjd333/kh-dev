@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>주문관리</title>
+  </head>
+  <body>
+    <h1>주문관리</h1>
+
+    <form action="" method="get">
+      <h3>주문자 정보</h3>
+      <ol>
+        <li>
+          주문자명 : <input type="text" name="userName" placeholder="name" />
+        </li>
+        <br />
+        <li>
+          email :
+          <input type="email" name="email" placeholder="Gdragon@gmail.com" />
+        </li>
+        <br />
+        <li>
+          홈페이지 : <input type="url" name="homepage" placeholder="http://" />
+        </li>
+      </ol>
+
+      <br />
+
+      <h3>주문정보</h3>
+      <ul>
+        <li>상품명 : <input type="text" name="productName" /></li>
+        <br />
+        <li>
+          주문수량 :
+          <input
+            type="number"
+            name="quantity"
+            placeholder="최소 100"
+            min="100"
+          />
+        </li>
+        <br />
+        <li>할인율 : <input type="range" name="discount" /></li>
+        <br />
+        <li>
+          요청사항 :
+          <textarea name="request" cols="20" rows="2"></textarea>
+        </li>
+      </ul>
+
+      <br />
+
+      <input type="submit" value="주문하기" />
+    </form>
+  </body>
+</html>
