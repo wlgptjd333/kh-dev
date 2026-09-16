@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
 .box {
   background-color: aquamarine;
   width: 150px;
@@ -7,7 +21,7 @@
   background-color: blanchedalmond;
 }
 
-.p {
+.game-title {
   background-color: aliceblue;
   width: 500px;
 }
