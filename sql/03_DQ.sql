@@ -162,9 +162,73 @@ WHERE EMP_NAME LIKE '%하%'
 -- EMPLOYEE 테이블에서 전화번호 4번째 자리가 9로 시작하는 사원의 사번, 사원명, 전화번호, 이메일 조회
 
 -- EMPLOYEE 테이블에서 이메일 중 _ 앞 글자가 3자리인 이메일 주소를 가진 사원의 사번 사원명, 이메일 조회
-
+SELECT *
+FROM EMPLOYEE
+WHERE EMAIL LIKE '___#_%' ESCAPE '#';
 -- EMPLOYEE 테이블에서 김씨 성이 아닌 직원 사번, 사원명, 입사일 조회
 
 -- EMPLOYEE 테이블에서 전화번호 처음 3자리가 010이 아닌 사원의 이름, 전화번호 조회
 
 -- DEPARTMENT 테이블에서 해외영업부에 대한 모든 컬럼 조회
+
+/*
+    <IS NULL / IS NOT NULL>
+        [문법]
+            WHERE 비교대상칼럼 IS [NOT] NULL;
+            
+        - 칼럼 값에 NULL이 있을 경우 NULL 값 비교에 사용된다.
+          IS NULL : 비교대상칼럼 값이 NULL인 경우 TRUE를 리턴한다.
+          IS NOT NULL : 비교대상칼럼 값이 NULL이 아닌 경우 TRUE 리턴한다.
+*/  
+
+SELECT *
+FROM EMPLOYEE
+WHERE DEPT_CODE IS NULL
+;
+
+/*
+    <IN>
+        [문법]
+            WHERE 비교대상칼럼 IN('값', '값', '값', ..., '값');
+        
+        - 값 목록 중에 일치하는 값이 있을 때 TRUE 리턴한다.
+*/
+
+SELECT *
+FROM EMPLOYEE
+WHERE DEPT_CODE IN ('D2', 'D5')
+;
+
+/*
+    <연산자 우선순위>
+        0. ()
+        1. 산술 연산자
+        2. 연결 연산자
+        3. 비교 연산자
+        4. IS NULL, LIKE, IN
+        5. BETWEEN AND
+        6. 논리 연산자 - NOT
+        7. 논리 연산자 - AND
+        8. 논리 연산자 - OR
+*/
+
+/*
+    <ORDER BY>
+        [문법]
+            SELECT 칼럼, 칼럼, ..., 칼럼
+              FROM 테이블명
+             WHERE 조건식
+          ORDER BY 정렬시키고자 하는 칼럼명|별칭|칼럼 순번 [ASC|DESC] [NULLS FIRST | NULLS LAST];
+          
+        - SELECT 문에서 가장 마지막에 기입하는 구문으로 실행 또한 가장 마지막에 진행된다.
+        - ASC : 오름차순으로 정렬한다. (ASC 또는 DESC 생략 시 기본값)
+        - DESC : 내림차순으로 정렬한다.
+        - NULLS FIRST : 정렬하고자 하는 칼럼 값에 NULL이 있는 경우 해당 데이터 값을 맨 앞으로 정렬한다.
+        - NULLS LAST : 정렬하고자 하는 칼럼 값에 NULL이 있는 경우 해당 데이터 값을 맨 뒤로 정렬한다.
+*/
+
+SELECT *
+FROM EMPLOYEE
+ORDER BY BONUS DESC NULLS LAST, SALARY DESC
+;
+
