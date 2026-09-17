@@ -1,41 +1,111 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자기소개: 지혜성</title>
     <link href="./자기소개.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>자기소개: 지혜성</h1>
-      </header>
-      <nav></nav>
-      <main></main>
-      <footer></footer>
-    </div>
 
-    <div>
-      <p><strong>이름: 지혜성</strong></p>
-      <p><strong>MBTI: INTP</strong></p>
-      <p><strong>나이: 24살</strong></p>
-      <p><strong>좋아하는 음식: 오미라식당에서 나오는 음식</strong></p>
-      <p><strong>희망 직업: IT 개발자</strong></p>
-      <p><strong>사는 곳: 경기도 안산</strong></p>
-    </div>
-    <hr />
-    <p class="game-title">내가 좋아하는 게임</p>
-    <div class="box">
-      <ol>
-        <li>
-          <a href="https://playvalorant.com/ko-kr/" target="_blank">Valorant</a>
-        </li>
-      </ol>
+  <body id="top">
+    <header>
+      <h1>자기소개: 지혜성</h1>
+      <p>안녕하세요..</p>
+    </header>
 
-      <hr />
-    </div>
-    <hr />
-    <br />
+    <nav>
+      <a href="#top">위</a>
+      <a href="#intro">소개</a>
+      <a href="#favorite-game">좋아하는 게임</a>
+      <a href="#schedule">하루 일정</a>
+      <a href="#bottom">아래</a>
+      <p>BGM</p>
+      <iframe
+        class="music-player"
+        src="https://www.youtube.com/embed/eczV_lwF8TQ?autoplay=1&controls=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </nav>
+
+    <main>
+      <div id="intro">
+        <h2>나의 정보</h2>
+        <div>
+          <p><strong>이름: 지혜성</strong></p>
+          <p><strong>MBTI: INTP</strong></p>
+          <p><strong>나이: 25살</strong></p>
+          <h2>
+            <strong class="food">
+              좋아하는 음식: 오미라에서 나오는 음식 <=
+              <strong class="food-hover"> 그 중에서도 "양념게장" </strong>
+            </strong>
+          </h2>
+          <p><strong>희망 직업: IT 개발자</strong></p>
+          <p><strong>사는 곳: 경기도 안산</strong></p>
+        </div>
+      </div>
+
+      <div id="favorite-game" class="favorite-game">
+        <h2>내가 좋아하는 게임</h2>
+        <div class="game-box">
+          <div>
+            <a href="https://playvalorant.com/ko-kr/" target="_blank"
+              >Valorant</a
+            >
+          </div>
+          <img
+            class="rank-image"
+            src="https://images.steamusercontent.com/ugc/1849304444432347303/DF03C868D29387CE1FA0BB0AB47CC61733117161/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+            alt="발로란트 랭크 이미지"
+          />
+        </div>
+      </div>
+
+      <div id="schedule">
+        <h2>하루 일정표</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>시간</th>
+              <th>내용</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>06:20</td>
+              <td>기상</td>
+            </tr>
+            <tr>
+              <td>09:10</td>
+              <td>KH 수업</td>
+            </tr>
+            <tr>
+              <td>13:00</td>
+              <td>오미라에서 배 터지게 먹기</td>
+            </tr>
+            <tr>
+              <td>21:00</td>
+              <td>HTML과 CSS 공부</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer id="bottom">
+      <p>KH 2026 지혜성</p>
+    </footer>
   </body>
 </html>
