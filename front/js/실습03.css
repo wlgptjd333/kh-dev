@@ -1,0 +1,18 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#target {
+  width: 200px;
+  height: 100vh;
+  border: 3px solid black;
+  box-sizing: border-box;
+  background-color: lightcyan;
+  margin-left: -150px;
+}
+
+.abc#target {
+  margin-left: 0px;
+}

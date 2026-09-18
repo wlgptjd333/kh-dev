@@ -1,0 +1,13 @@
+h1 {
+  background-color: red;
+}
+
+#target {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.gray {
+  background-color: gray;
+}
