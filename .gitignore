@@ -1,6 +1,10 @@
-idea/
+# 파이썬 가상환경 및 IDE 캐시
+.venv/
+venv/
+.idea/
+.vscode/
 __pycache__/
-setup/
+*.pyc
 
 # 이미지 파일
 *.jpg
@@ -17,3 +21,22 @@ setup/
 *.avi
 *.mov
 *.mkv
+
+# 대용량 압축 파일
+*.zip
+*.tar
+*.gz
+
+# YOLO 학습 결과 및 가중치 파일 (.pt)
+runs/
+weights/
+*.pt
+
+# 데이터셋 이미지, 라벨, 캐시 파일
+dataset/
+*.cache
+*.rf.*
+
+# setup 폴더 전체 제외
+
+setup/
