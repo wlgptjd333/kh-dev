@@ -25,8 +25,8 @@
 // const x = document.querySelector("input[type=text]");
 // console.log(x.value);
 
-const x = document.querySelector("#target");
-console.log(x);
+// const x = document.querySelector("#target");
+// console.log(x);
 
 function f01() {
   console.log(11);

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <h1 id="target">prj01</h1>
+
+    <a href="/zzzzz">요청보내기</a>
+
+    <button onclick="f01()">요청보내기</button>
+
+    <hr />
+
+    <form action="http://192.168.40.3:8000/books" method="post">
+      <br />
+      <input type="text" name="title" placeholder="title 입력 ~~~" />
+      <br />
+      <input type="number" name="price" placeholder="price 입력 ~~~" />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
