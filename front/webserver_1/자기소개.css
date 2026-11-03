@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 맑은 고딕;
+  line-height: 1.6;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* background: url("https://i.namu.wiki/i/BkNjoA-cKionXBNgcm5ACq3X6K4ruETELzfKl4Pn7fBqz9nM-cZQ__ffXEq77qBmTLhB67YeyVOK8_MM-OOeSP8DaNfmIEHvttpCWhWQfsbl7YRWv18U303KiMa5MceOpR_JLau3yHYwXQzl-Jt-pg.webp")
+    no-repeat center / cover fixed; */
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("https://i.namu.wiki/i/BkNjoA-cKionXBNgcm5ACq3X6K4ruETELzfKl4Pn7fBqz9nM-cZQ__ffXEq77qBmTLhB67YeyVOK8_MM-OOeSP8DaNfmIEHvttpCWhWQfsbl7YRWv18U303KiMa5MceOpR_JLau3yHYwXQzl-Jt-pg.webp")
+    no-repeat center / cover;
+  z-index: -1;
+  animation: zoom 300s infinite alternate ease-in-out;
+}
+
+header,
+footer {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: lightslategray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav a {
+  display: block;
+  color: black;
+  background-color: lightgray;
+  margin: 15px;
+  padding: 5px;
+}
+
+nav:hover {
+  transform: translateY(-50%) translateX(-60px) rotate(-5deg) scale(1.15);
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.game-box {
+  background-color: lightsalmon;
+  width: 100%;
+  padding: 10px;
+}
+
+.game-box:hover {
+  animation: jelly 1.5s infinite;
+}
+
+.music-player {
+  width: 500px;
+  height: 250px;
+  border: 0;
+}
+
+.favorite-game {
+  display: grid;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 80%;
+  .rank-image {
+    width: 70%;
+    height: 450px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: aquamarine;
+  padding: 36px;
+}
+
+td {
+  background-color: azure;
+  padding: 36px;
+}
+
+.food {
+  display: inline-block;
+  cursor: pointer;
+  animation-name: jelly;
+  animation-duration: 2s;
+  /* animation-delay: 0.3s; */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.food-hover {
+  display: none;
+  color: lightsalmon;
+}
+
+.food:hover .food-hover {
+  display: inline-block;
+  cursor: pointer;
+  animation-name: glitch, bounce;
+  animation-duration: 2s;
+  /* animation-delay: 0.3s; */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+/* 애니메이션 */
+#target {
+  width: 100px;
+  height: 100px;
+  margin: 100;
+  border: 1px solid black;
+  background-color: gray;
+}
+
+#target:active {
+  animation-play-state: paused;
+}
+#target:hover {
+  background-color: red;
+  cursor: pointer;
+  animation-name: naruto, heartbeat, shake, flip, jelly, glitch, bounce;
+  animation-duration: 2s;
+  /* animation-delay: 0.3s; */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  /* animation-fill-mode: both; */
+
+  /* transform: translate(500px, 0px);
+  transition: 1s;
+  transition-delay: 1s;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(0.9, 0.5, 0.9, -0.6); */
+}
+
+@keyframes naruto {
+  0% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: coral;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    border-radius: 100px;
+    transform: scale(1.25);
+  }
+  50% {
+    transform: translateY(-50px) scale(2);
+  }
+}
+
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  15%,
+  45% {
+    transform: scale(1.25);
+  }
+  30% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-12px) rotate(-6deg);
+  }
+  40% {
+    transform: translateX(12px) rotate(6deg);
+  }
+  60% {
+    transform: translateX(-8px) rotate(-4deg);
+  }
+  80% {
+    transform: translateX(8px) rotate(4deg);
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(400px) rotateY(0);
+  }
+  50% {
+    transform: perspective(400px) rotateY(180deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(360deg);
+  }
+}
+
+@keyframes jelly {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  30% {
+    transform: scale(1.1, 0.9);
+  }
+  50% {
+    transform: scale(0.95, 1.05);
+  }
+  70% {
+    transform: scale(1.1, 0.95);
+  }
+}
+
+@keyframes glitch {
+  0% {
+    filter: hue-rotate(0);
+  }
+  25% {
+    filter: hue-rotate(90deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+  }
+  75% {
+    filter: hue-rotate(270deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+  }
+}
