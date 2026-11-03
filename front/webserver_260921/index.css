@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #24292f;
+  font-family: Arial, sans-serif;
+}
+a {
+  color: #0969da;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 12px 8%;
+  color: white;
+  background: black;
+}
+header b {
+  font-size: 24px;
+}
+header input {
+  width: 220px;
+  padding: 7px;
+  background: gray;
+  border: 1px solid gray;
+}
+header nav {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+}
+header a {
+  color: white;
+  font-size: 14px;
+}
+main {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 45px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.profile-image {
+  display: grid;
+  place-items: center;
+  width: 180px;
+  height: 180px;
+  color: white;
+  font-size: 45px;
+  border-radius: 50%;
+  background: gray;
+}
+aside h1 {
+  margin-bottom: 0;
+}
+aside p,
+small {
+  color: gray;
+}
+button {
+  width: 100%;
+  padding: 8px;
+}
+.tabs {
+  display: flex;
+  gap: 25px;
+  padding: 12px 0;
+  border-bottom: 1px solid lightgray;
+}
+h2 {
+  font-size: 20px;
+}
+.repositories {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 15px;
+}
+article {
+  min-height: 130px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+@media (max-width: 650px) {
+  header nav {
+    display: none;
+  }
+  main,
+  .repositories {
+    display: block;
+  }
+  aside {
+    margin-bottom: 30px;
+  }
+  article {
+    margin-bottom: 15px;
+  }
+}
+
+/* 2번째 카드에 마우스 올리면 배경 이미지*/
+.repositories article:nth-child(2):hover {
+  background: url("https://i.pinimg.com/564x/02/30/f1/0230f1fda437e70a1c6e6dd7424e379d.jpg")
+    no-repeat center / cover;
+  color: white;
+  transition: 0.3s;
+}
+.repositories article:nth-child(2):hover a {
+  color: white;
+}
